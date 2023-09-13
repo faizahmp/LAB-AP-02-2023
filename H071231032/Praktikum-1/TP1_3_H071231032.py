@@ -15,8 +15,6 @@ diskriminan = b**2 - 4*a*c
 
 xa = (-b + (diskriminan)**0.5) / (2*a)
 xb = (-b - (diskriminan)**0.5) / (2*a)
-x1 = round(xa, 2)
-x2 = round(xb, 2)
 
-print(f"\nx1 = {x1}")
-print(f"x2 = {x2}\n")
+print(f"\nx1 = {xa:.2f}")
+print(f"x2 = {xb:.2f}\n")

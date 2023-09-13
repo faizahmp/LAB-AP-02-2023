@@ -4,11 +4,11 @@
 
 print("\nSoal no. 2: Konversi Suhu dari Celcius ke Kelvin, Reamur, dan Fahrenheit.\n")
 
-suhu = int(input("Masukkan suhu dalam Celcius: "))
+suhu = float(input("Masukkan suhu dalam Celcius: "))
 kelvin = int(suhu + 273)
 reamur = int(4/5 * suhu)
 fahrenheit = int((suhu * 9/5) + 32)
 
-print(f"\nHasil konversi dari suhu {suhu}°C ke Kelvin adalah {kelvin} K")
-print(f"Hasil konversi dari suhu {suhu}°C ke Reamur adalah {reamur}°R")
-print(f"Hasil konversi dari suhu {suhu}°C ke Fahrenheit adalah {fahrenheit}°F\n")
+print(f"\nHasil konversi dari suhu {int(suhu)}°C ke Kelvin adalah {kelvin} K")
+print(f"Hasil konversi dari suhu {int(suhu)}°C ke Reamur adalah {reamur}°R")
+print(f"Hasil konversi dari suhu {int(suhu)}°C ke Fahrenheit adalah {fahrenheit}°F\n")

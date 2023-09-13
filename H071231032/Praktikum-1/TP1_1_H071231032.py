@@ -10,6 +10,5 @@ miring = ((tinggi ** 2) + (alas ** 2)) ** 0.5
 
 luas = 0.5 * alas * tinggi
 keliling = tinggi + alas + miring
-nilailuas = round(luas, 2)
-nilaikeliling = round(keliling, 2)
-print(f"\nLuas segitiga: {nilailuas} cm^2\nKeliling segitiga: {nilaikeliling} cm")
+
+print(f"\nLuas segitiga: {luas:.2f} cm^2\nKeliling segitiga: {keliling:.2f} cm")
