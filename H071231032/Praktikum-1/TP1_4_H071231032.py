@@ -6,4 +6,6 @@ print("\nSoal no. 4: Penentuan Jenis Karakter.\n")
 
 karakter = input("Karakter: ")
 
-print(f"\nHuruf kapital? {karakter.isupper()}\nHuruf kecil? {karakter.islower()}\nAngka? {karakter.isdigit()}\n")
+print(f"""\nHuruf kapital? {'A' <= karakter <= 'Z'}
+Huruf kecil? {'a' <= karakter <= "z"}
+Angka? {'0' <= karakter <= '9'}\n""")
