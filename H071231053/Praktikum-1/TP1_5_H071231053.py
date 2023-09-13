@@ -8,6 +8,6 @@ detik_sisa = detik % 3600
 menit = detik_sisa // 60
 detik = detik_sisa % 60
 
-format_waktu = "{:02d}:{:12d}:{:02d}".format(jam, menit, detik)
+format_waktu = "{:02d}:{:02d}:{:02d}".format(jam, menit, detik)
 
 print("Waktu dalam format jam:menit:detik =", format_waktu)
