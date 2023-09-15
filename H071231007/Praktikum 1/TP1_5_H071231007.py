@@ -8,4 +8,4 @@ menit = z // 60
 z %= 60
 detik = z % 60
 
-print(f"{jam:03d}:{menit:03d}:{detik:03d}")
+print(f"{jam:02d}:{menit:02d}:{detik:02d}")
